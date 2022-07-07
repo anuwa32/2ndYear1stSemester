@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family:sans-sefif;
+	background-size:cover;
+	background: url("../images/back.jpg" );
+	
+	
+}
+.updatebox
+{
+	width:500px;
+	padding:20px ;
+	top:50px;
+	left:32.5%;
+	/*background:linear-gradient(to right, #000000, #434343);*/
+	color:	rgb(77, 77, 77);
+	position:absolute;
+    margin-bottom:50px;
+	bottom:20px;
+	border:4px solid #0099cc;
+	background:linear-gradient(to right, #757f9a, #d7dde8);
+	border-radius: 10px;
+}
+.updatebox h1
+{
+	text-align:center;
+}
+.textbox input
+{
+	margin-left:18px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox1 input
+{
+	margin-left:30px;
+	font-family:Arial;
+	width: 40%;
+} 
+
+.textbox2 input
+{
+	margin-left:30px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox3 input
+{
+	margin-left:62px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox4 input
+{
+	margin-left:3px;
+	font-family:Arial;
+	width: 40%;
+} 
+
+.textbox5 input
+{
+	margin-left:48px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox6 input
+{
+	margin-left:12px;
+	font-family:Arial;
+	width: 40%;
+} 
+
+.textbox7 input
+{
+	margin-left:53px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox8 input
+{
+	margin-left:27px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox9 input
+{
+	margin-left:38px;
+	font-family:Arial;
+	width: 40%;
+}
+.textbutton
+{
+	position: absolute;
+	top:520px;
+	left:10%
+}
+
+.textbutton input
+{
+	height:30px;
+	border-radius: 5px;
+	border:4px solid #0099cc;
+}
+

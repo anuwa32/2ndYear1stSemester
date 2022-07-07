@@ -1,0 +1,148 @@
+@charset "ISO-8859-1";
+
+
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family:sans-sefif;
+	background-size:cover;
+	background: url("../images/back.jpg" );
+	
+}
+
+.sellbox
+{
+	width:500px;
+	padding:20px ;
+	top:140px;
+	left:33%;
+	/*background:linear-gradient(to right, #000000, #434343);*/
+	color:rgb(77, 77, 77);
+	position:absolute;
+    margin-bottom:150px;
+	bottom:-10px;
+	border:4px solid #0099cc;
+	background:transparent;
+	border-radius: 10px;
+	font-family:Arial
+	
+}
+.sellbox h1
+{
+	text-align:center;
+}
+
+.textbox input
+{
+	margin-left:32px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox1 input
+{
+	margin-left:32px;
+	font-family:Arial;
+	width: 40%;
+} 
+
+.textbox2 input
+{
+	margin-left:69px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox3 input
+{
+	margin-left:1px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox4 input
+{
+	margin-left:50px;
+	font-family:Arial;
+	width: 40%;
+} 
+
+.textbox5 input
+{
+	margin-left:16px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox6 input
+{
+	margin-left:55px;
+	font-family:Arial;
+	width: 40%;
+} 
+
+.textbox7 input
+{
+	margin-left:28px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox8 input
+{
+	margin-left:40px;
+	font-family:Arial;
+	width: 40%;
+} 
+
+.textbutton
+{
+	position: absolute;
+	top:480px;
+	left:10%
+}
+.textbutton input
+{
+	height:30px;
+	border-radius: 5px;
+	border:4px solid #0099cc;
+}
+.insbn
+{
+	position: absolute;;
+	top: 600px;
+	left:60%;
+}
+.insbn input
+{
+	height: 40px;
+	width:100px;
+	border-radius: 5px;
+	border:4px solid #0099cc;
+}
+.insbn input:hover
+{
+	outline:none;
+	transition:0.25s;
+	transform:scale(1.1);
+}
+
+
+.enter
+{
+	position: absolute;;
+	top: 520px;
+	left:60%;
+}
+.enter input
+{
+	height: 40px;
+	width:100px;
+	border-radius: 5px;
+	border:4px solid #0099cc;
+}
+.enter input:hover
+{
+	outline:none;
+	transition:0.25s;
+	transform:scale(1.1);
+}
+
+

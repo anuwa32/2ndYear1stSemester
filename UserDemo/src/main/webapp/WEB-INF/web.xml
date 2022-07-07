@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         
+         
+         <servlet>
+         
+                   <servlet-name> Login </servlet-name>
+                   <servlet-class> com.customer.LogServlet</servlet-class>
+         
+         </servlet>
+         
+         <servlet-mapping>
+         
+                   <servlet-name>Login </servlet-name>
+                   <url-pattern>/Log</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         
+         
+         
+         <servlet>
+                       <servlet-name>Registerinsert</servlet-name>
+                       
+                       <servlet-class>com.user.Registerinsert</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+                           <servlet-name>Registerinsert</servlet-name>
+                           <url-pattern>/insert</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         
+         
+         <servlet>
+         
+                  <servlet-name>updatecus</servlet-name>
+                  <servlet-class>com.user.UpdateServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+                      <servlet-name>updatecus</servlet-name>
+                      <url-pattern>/update</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         
+         
+         <servlet>
+                 <servlet-name> deletecus </servlet-name>
+                 <servlet-class> com.user.DeleteCusServlet</servlet-class>
+         </servlet>
+         
+          <servlet-mapping>
+         
+                   <servlet-name>deletecus </servlet-name>
+                   <url-pattern>/delete</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         
+         
+          <servlet>
+                 <servlet-name> forgotcus </servlet-name>
+                 <servlet-class> com.user.ForgotpasswordServlet</servlet-class>
+         </servlet>
+         
+          <servlet-mapping>
+         
+                   <servlet-name>forgotcus </servlet-name>
+                   <url-pattern>/forgot</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         
+         
+         <servlet>
+                 <servlet-name> forgot2cus </servlet-name>
+                 <servlet-class> com.user.Forgotpassword2Servlet</servlet-class>
+         </servlet>
+         
+          <servlet-mapping>
+         
+                   <servlet-name>forgot2cus </servlet-name>
+                   <url-pattern>/forgot2</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         
+          <servlet>
+                 <servlet-name> rateus </servlet-name>
+                 <servlet-class> com.user.RateusServlet</servlet-class>
+         </servlet>
+         
+          <servlet-mapping>
+         
+                   <servlet-name>rateus </servlet-name>
+                   <url-pattern>/rate</url-pattern>
+         </servlet-mapping>
+        
+         
+         
+         <servlet>
+                 <servlet-name> breg </servlet-name>
+                 <servlet-class> com.user.BregServlet</servlet-class>
+         </servlet>
+         
+          <servlet-mapping>
+         
+                   <servlet-name>breg </servlet-name>
+                   <url-pattern>/breg1</url-pattern>
+         </servlet-mapping>
+         
+          
+         
+         
+         
+         
+         
+         
+         
+         
+</web-app>
+         
